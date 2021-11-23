@@ -21,13 +21,15 @@ number2 = int(input("Enter another number: "))
 
 number3 = int(input("Enter a third number: "))
 
-if number1 < number2:
+if number1 == number2 == number3:
+  print("The smallest number is ", number1)
+elif number1 < number2 or number1 == number2:
   if number1 < number3:
     print("The smallest number is ", number1)
-if number2 < number3:
+elif number2 < number3 or number2 == number3:
   if number2 < number1:
     print("The smallest number is", number2)
-if number3 < number2:
+elif number3 < number2 or number3 == number2:
   if number3 < number1:
     print("The smallest number is", number3)
 

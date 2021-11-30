@@ -28,8 +28,8 @@ if num > 0:
   print("Positive")
 if num == 0:
   print("Zero")
+
 if num % 3 == 0:
   print("Divisible by 3")
 else:
-  3
   print("Not divisible by 3")
